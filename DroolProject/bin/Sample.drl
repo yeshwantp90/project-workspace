@@ -1,0 +1,89 @@
+package com.sample
+
+
+import com.java.model.Student; 
+import com.java.model.Product;
+
+ 
+rule "Invalid"
+	when 
+		studentObject: Student(percentage<0 || percentage>100)
+	then
+		studentObject.setGrade("invalid");
+		System.out.println("This is not valid percentile!");
+	end
+
+
+
+rule "Distinction"
+	when 
+		studentObject: Student(percentage>=70 && percentage<=100)
+	then
+		studentObject.setGrade("distinction");
+		System.out.println("Congrats you have secured "+studentObject.getGrade());
+	end
+	
+	
+rule "First Class"
+	when 
+		studentObject: Student(percentage>=60 && percentage<70)
+	then
+		studentObject.setGrade("first-class");
+		System.out.println("Congrats you have secured "+studentObject.getGrade());
+	end
+	
+	
+rule "Second Class"
+	when 
+		studentObject: Student(percentage>=50 && percentage<60)
+	then
+		studentObject.setGrade("second-class");
+		System.out.println("Congrats you have secured "+studentObject.getGrade());
+		
+	end
+	
+	
+rule "Pass Class"
+	when 
+		studentObject: Student(percentage<50 && percentage>=30)
+	then
+		studentObject.setGrade("Pass-class");
+		System.out.println("You have secured "+studentObject.getGrade());
+		
+	end
+	
+	
+rule "Failed"
+	when 
+		studentObject: Student(percentage >=0 && percentage<30)
+	then
+		studentObject.setGrade("failed");
+		System.out.println("Oh Sorry you have "+studentObject.getGrade());
+		
+	end
+	
+	
+rule "tenPercent"
+	when 
+		productObject: Product(price>=1500)
+	then
+		productObject.setDiscount(10);
+		System.out.println("Congrats you have availed "+productObject.getDiscount()+"% discount on product");
+	end	
+	
+	rule "fivePercent"
+	when 
+		productObject: Product(price>500 && price<1500)
+	then
+		productObject.setDiscount(5);
+		System.out.println("Congrats you have availed "+productObject.getDiscount()+"% discount on product");
+	end	
+	
+	rule "zero"
+	when 
+		productObject: Product(price<500)
+	then
+		productObject.setDiscount(0);
+		System.out.println("Sorry no discount. Minimum amount should be 500 ");
+	end	
+	

@@ -1,0 +1,94 @@
+<object-stream>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Pass Class [1]</activationId>
+  <rule>Pass Class</rule>
+  <declarations>studentObject=com.java.model.Student@1115ec15(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>1</factId>
+  <objectToString>com.java.model.Student@1115ec15</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Pass Class [1]</activationId>
+  <rule>Pass Class</rule>
+  <declarations>studentObject=com.java.model.Student@1115ec15(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Pass Class [1]</activationId>
+  <rule>Pass Class</rule>
+  <declarations>studentObject=com.java.model.Student@1115ec15(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Failed [2]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@3688eb5b(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>2</factId>
+  <objectToString>com.java.model.Student@3688eb5b</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Failed [2]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@3688eb5b(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Failed [2]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@3688eb5b(2)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Failed [3]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@69f1a286(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>3</factId>
+  <objectToString>com.java.model.Student@69f1a286</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Failed [3]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@69f1a286(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Failed [3]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@69f1a286(3)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Failed [4]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@7922d892(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>4</factId>
+  <objectToString>com.java.model.Student@7922d892</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Failed [4]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@7922d892(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Failed [4]</activationId>
+  <rule>Failed</rule>
+  <declarations>studentObject=com.java.model.Student@7922d892(4)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+</object-stream>
